@@ -23,6 +23,7 @@ For 'inertia weight' and 'constriction factor' you must study papers on the Inte
 A simulation experiment is defined by a topology, a pair (fi1, fi2) and a PSO variant. A simulation experiment has the form:
    - for i = 1 ... 10 ( if the running time is too high you can use 3 instead of 10)
        - apply a PSO variant (with a topology and a pair (fi1, fi2))
+
 The result of the simulation experiment must be the best solution (from the 10 solutions obtained during the experiment) and the value of the objective function in that solution (point).
 Remarks:
     - For each application of a PSO variant (from the 10 of an experiment) you will use as stopping criterion the maximum number of iterations. For all the functions, the maximum number of iterations is 500 (if the running time is too high, you can use 100 or 50 instead of 500).
