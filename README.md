@@ -8,7 +8,6 @@ All of the functions minimum is achieved in 0, thereby the error obtained will b
 
 Problem Statement:
 
-Homework 6
 Consider the functions: Sphere, Rosenbrock, Rastrigin, Griewank. You can easily find details about these functions on the Internet (formulas, global optima). We study these functions for n = 2 (the argument of each function will be a value in R x R).
 
 For each function you must use:
