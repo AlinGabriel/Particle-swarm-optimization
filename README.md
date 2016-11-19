@@ -1,12 +1,14 @@
 # Particle-swarm-optimization
 Particle Swarm Optimization in Java.
 
-Implemented The Particle Swarm Optimization algorithm in Java in  3 variants: Base variant, Inertia Weight and Constriction Factor.
+Implemented The Particle Swarm Optimization algorithm in Java in  3 variants: Main variant, Inertia Weight and Constriction Factor.
 Experimental Results were obtained using 3 topologies: FullGraph, Ring and 4Neighbors.
 As objective function, 4 different functions were tested: Rosenbrock, Rastrigin, Sphere and Grienwank.
 All of the functions minimum is achieved in 0, thereby the error obtained will be the value of the closest particle to this minimum.
 
+
 Problem Statement:
+
 
 Consider the functions: Sphere, Rosenbrock, Rastrigin, Griewank. You can easily find details about these functions on the Internet (formulas, global optima). We study these functions for n = 2 (the argument of each function will be a value in R x R).
 
